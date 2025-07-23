@@ -152,3 +152,41 @@ body{
 .break{
     display: none;
 }
+/* plants lover section */
+.plants-lover-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 133.87px;
+}
+.plant-img{
+    width: 540px;
+    height: 570px;
+}
+.plants-lover-header{
+    font-weight: 700;
+    font-size: 3.1rem;
+    color: #000000;
+}
+.plants-lover-text{
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+.plants-lover-text div{
+    display: flex;
+    gap: 10px;
+}
+.plants-lover-img{
+    position: relative;
+}
+.badge{
+    width: 286px;
+    height: 286px;
+    position: absolute;
+    top: -130px;
+    right: -100px;
+}
+.lover-break{
+    display: none;
+}

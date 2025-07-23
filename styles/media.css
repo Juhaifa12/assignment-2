@@ -25,6 +25,10 @@
         font-size: 0.8rem;
         line-height: auto;
     }
+    /* plant-section */
+    .plant-section{
+        margin-bottom: 41.5px;
+    }
     .plant-header{
         font-size: 1.5rem;
     }
@@ -34,7 +38,8 @@
     .plant-card{
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        padding-left: 17px;
+        padding-left: 20px;
+        margin-bottom: 42px;
     }
     .lily{
         font-size: 1rem;
@@ -62,5 +67,37 @@
     .break{
         display: block;
     }
-    
+    /* plants-lover-section */
+    .badge{
+        display: none;
+    }
+    .plants-lover-section{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding-left: 20px;
+    }
+    .plant-img{
+        width: 358px;
+        height: 396px;
+    }
+    .plants-lover-header{
+        font-size: 1.5rem;
+        margin-top: 18px;
+        margin-bottom: 16px;
+    }
+    .plants-lover-header br{
+        display: none;
+    }
+    .plants-lover-text div p{
+        font-size: 0.875rem;
+    }
+    .love{
+        display: none;
+    }
+    .lover-break{
+        display: block;
+    }
+    .plants-lover-content{
+        margin-bottom: 143px;
+    }
 }
