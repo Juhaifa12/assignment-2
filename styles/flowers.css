@@ -18,6 +18,15 @@ body{
     max-width: 1140px;
     margin:0 auto;
 }
+.btn-primary{
+    background-color: #E95A08;
+    color: #FFFFFF;
+    border: none;
+}
+.btn-primary:hover{
+    background: #FA670D;
+    box-shadow: 0 6px 22px rgba(233,90,8,0.18);
+}
 /* navbar styles */
 .navbar{
     display: flex;
@@ -81,4 +90,65 @@ body{
 }
 .banner-img img{
     padding-top: 106px;
+}
+/* plant-section */
+.plant-heading{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.plant-header{
+    font-weight: 700;
+    font-size: 3.1rem;
+    margin-bottom: 16px;
+}
+.our{
+    color: #E95A08;
+}
+.plant{
+    color: #000000;
+}
+.plant-text{
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 49px;
+}
+.card-item{
+    background-color: #FFFFFF;
+    width: 270px;
+    height: 484.94px;
+}
+.card-item img{
+    width: 100%;
+}
+.lily{
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: #111111;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.usd{
+    font-weight: 700;
+    color: #111111;
+    font-size: 1.3rem;
+}
+.item-text{
+    text-align: center;
+}
+.card-item button{
+    width: 270px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.plant-card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 30px;
+    margin-bottom: 210.12px;
+}
+.break{
+    display: none;
 }
