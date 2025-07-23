@@ -1,0 +1,84 @@
+
+.noto-serif-primary {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.inter-primary{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* shared styles */
+body{
+    background-color: #F5F8FF;
+}
+.container{
+    max-width: 1140px;
+    margin:0 auto;
+}
+/* navbar styles */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+}
+.nav-menu ul{
+    display: flex;
+    gap: 48px;
+}
+.nav-element{
+    display: flex;
+    gap: 48px;
+}
+.nav-menu ul li{
+    list-style: none;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+}
+.nav-link-home{
+    font-weight: 700;
+    font-size: 1rem;
+    color: #252432;
+}
+.nav-link-shop, .nav-link-about{
+    font-weight: 400;
+    font-size: 1rem;
+    color: #8987A1;
+}
+.nav-cart{
+    font-weight: 400;
+    font-size: 1rem;
+    color: #000000;
+}
+/* banner section */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+.banner-content{
+    padding-top: 162px;
+}
+.banner-header{
+    font-weight: 700;
+    font-size: 4rem;
+    padding-bottom: 13px;
+}
+.always{
+    color: #000000;
+}
+.fresh{
+    color: #E95A08;
+}
+.side-text{
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+.banner-img img{
+    padding-top: 106px;
+}

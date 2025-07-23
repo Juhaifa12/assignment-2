@@ -1,0 +1,28 @@
+@media screen and (max-width:576px) {
+    .navbar,.banner{
+        max-width: 361px;
+        margin: 0 auto;
+    }
+    .nav-element{
+        display: none;
+    }
+    .banner{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .banner-img img{
+        width: 393px;
+        height: 245px;
+    }
+    .banner-content{
+        padding-top: 28px;
+    }
+    .banner-header{
+        font-size: 1.5rem;
+    }
+    .side-text{
+        font-size: 0.8rem;
+        line-height: auto;
+    }
+    
+}
