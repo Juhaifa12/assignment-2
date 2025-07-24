@@ -186,6 +186,12 @@ body{
     position: absolute;
     top: -130px;
     right: -100px;
+    animation: spin 10s linear infinite;
+    filter:drop-shadow(-4px 10px 1.5px rgba(0, 0, 0, 0.25));
+}
+@keyframes spin {
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
 }
 .lover-break{
     display: none;
@@ -316,4 +322,41 @@ body{
 .join-content button:hover{
     background-color: #000000;
     cursor: pointer;
+}
+/* footer-section */
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 160px 18px 160px;
+}
+.footer-left p{
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+.foot-break{
+    display: none;
+}
+.middle-1 li, .middle-2 li{
+    list-style: none;
+    margin-bottom: 32px;
+}
+.foot-link{
+    text-decoration: none;
+    color: #6B7280;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.footer-right{
+    display: flex;
+    width: 216px;
+    height: 36px;
+    justify-content: space-between;
+}
+.middle-1, .middle-2{
+    padding: 0;
+}
+.twitter{
+    width: 36px;
+    padding: 7px;
 }
