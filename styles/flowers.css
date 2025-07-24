@@ -290,8 +290,20 @@ body{
     background-image: url(../assets/news-letter-bg.png);
     height: 533px;
     text-align: center;
-    background-size: cover;
     background-position: center;
+    position: relative;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.overlay-4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(7, 51, 79, 0.1);
+    width: 1440px;
+    margin: 0 auto;
 }
 .join-heading{
     font-weight: 700;
