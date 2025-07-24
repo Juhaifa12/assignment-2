@@ -132,4 +132,30 @@
     .left-bottom{
         margin-top: 20px;
     }
+    /* join section */
+    .join-section{
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 276px;
+        margin: 0;
+        margin-top: -80px;
+    }
+    .join-content{
+        padding-left: 36px;
+        padding-right: 36px;
+    }
+    .join-heading{
+        font-size: 1.25rem;
+        padding-top: 110.5px;
+    }
+    .input-email{
+        padding: 16px 97.6px 16px 20px;
+    }
+    .join-content button{
+        width: 103px;
+        height: 50px;
+        padding: 19px 12px;
+    }
 }

@@ -24,7 +24,7 @@ body{
     border: none;
 }
 .btn-primary:hover{
-    background: #FA670D;
+    background: #000000;
     box-shadow: 0 6px 22px rgba(233,90,8,0.18);
 }
 /* navbar styles */
@@ -278,4 +278,42 @@ body{
     font-weight: 600;
     font-size: 1.75rem;
     margin: 0;
+}
+/* join section */
+.join-section{
+    background-image: url(../assets/news-letter-bg.png);
+    height: 533px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+.join-heading{
+    font-weight: 700;
+    font-size: 3.1rem;
+    color: #FFFFFF;
+    padding-top: 199px;
+    padding-bottom: 23px;
+}
+.join-content{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+.input-email{
+    padding: 1rem 30rem 1.16rem 1rem;
+    border: none;
+}
+.join-content button{
+    padding: 17px 50px;
+    background-color: #E95A08;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 1rem;
+    width: 186px;
+    height: 50px;
+}
+.join-content button:hover{
+    background-color: #000000;
+    cursor: pointer;
 }
